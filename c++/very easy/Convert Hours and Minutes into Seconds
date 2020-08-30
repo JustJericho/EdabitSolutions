@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/PjZCAgDagKBaubYbb
+int convert(int hours, int minutes) {
+	int hourlyseconds = hours*3600;
+	int minutelyseconds = minutes*60;
+	int seconds = hourlyseconds+minutelyseconds;
+	
+}
+/*You guys should give mechanical keyboards a try*/
+/*They are magical*/
+/*So good to type on*/
