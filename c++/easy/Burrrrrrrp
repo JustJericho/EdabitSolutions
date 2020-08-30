@@ -1,0 +1,12 @@
+//https://edabit.com/challenge/vxpP4nnDhRr2Yc3Lo
+std::string longBurp(int num) {
+	std::string burp = "Bu";
+	for(int i = 0; i<num;i++){
+		burp.push_back('r');
+	}
+	burp.push_back('p');
+	return burp;
+}
+// God if your burp is this long, you should go see a doctor ASAP
+// Trust me
+// Like try not to burp up your insides aswell lmao
