@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/MtG39AgXhyeePSiY2
+std::string helloName(std::string name) {
+	std::string Greeting = "Hello ";
+	std::string Greetings = Greeting+name+"!";
+	return Greetings;
+}
+/*Ezzzz*/
+/*God I can't wait to move on onto the more hard challenges!*/
