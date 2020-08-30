@@ -1,0 +1,7 @@
+//https://edabit.com/challenge/adyFtG9tadPWPhmAQ
+std::vector<int> pairs(std::pair <int,int> p) {
+	std::vector<int> pairs;
+	pairs.push_back(p.first);
+	pairs.push_back(p.second);
+	return pairs;
+}
