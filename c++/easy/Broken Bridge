@@ -1,0 +1,13 @@
+//https://edabit.com/challenge/udrQ2ckXP9cXNXiSk
+bool isSafeBridge(std::string s) {
+	for(int i = 0; i<s.length(); i++){
+        if(s.at(i) == ' '){
+            return false;
+        }
+    }
+    return true;
+}
+
+// You guys should listen to The Misfits Podcast
+// While chilling on edabit
+// Really nice
