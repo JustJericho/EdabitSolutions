@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/aADAoRtkbZWEKw9Ap
+int animals(int chickens, int cows, int pigs) {
+	int legchickens = chickens*2;
+	int legcows = cows*4;
+	int legpigs = pigs*4;
+	int Crushslegs = 0;
+	int legs = legcows+legchickens+legpigs+Crushslegs;
+	return legs;
+}
+/*Bois i may not have her legs yet, but they will eventually be mine lmao*/
