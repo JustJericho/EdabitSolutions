@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/hjmadKkCtejKpvpc6
+#include <cmath>
+int towerHanoi(int discs) {
+	int number = pow(2, discs);
+	return number-1;
+}
+
+// GG
+// Nice nice
+// Can't wait to go and have a fckin swim
