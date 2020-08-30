@@ -1,0 +1,2 @@
+//https://edabit.com/challenge/XEx3AmFm8rnS3eoJ9
+int footballPoints(int wins, int draws, int losses) {return wins*3+draws;}
