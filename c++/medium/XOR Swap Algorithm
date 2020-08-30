@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/dHYXiEXydZxrwntBq
+#include <utility>
+std::pair<int, int> XOR(int a, int b) {
+	std::swap(a, b);
+	std::pair <int,int> foo;
+	foo = std::make_pair (a,b);
+	return foo;
+}
+
+// Seems easy enough
