@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/yCs49ppiH3WwsaxBe
+int findPerimeter(int height, int width) {
+	int Perimeter=height+height+width+width;
+	return Perimeter;
+}
+/*Just a short msg on here*/
+/*What do you guys think of the new console? Talking about the ps5*/
+/*I kinda like the look of it despite everyones opinion*/
