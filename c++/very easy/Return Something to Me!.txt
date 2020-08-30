@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/gDyxBf28LeK6Krq5G
+
+#include <string>
+
+std::string giveMeSomething(std::string a) {
+	return "something "+a;
+}
+// I mean it's something lmao
