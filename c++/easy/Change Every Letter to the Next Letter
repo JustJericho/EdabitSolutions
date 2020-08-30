@@ -1,0 +1,6 @@
+https://edabit.com/challenge/krd3ExC29uGDRzHki
+std::string move(std::string word){
+	std::transform (word.begin(), word.end(), word.begin(), [](char chr){return chr+1;});
+	return word;
+	}
+//GG wp
