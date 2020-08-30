@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/LLghsZNEvYKMXvjzf
+int length(std::string str) {
+	return str.length();
+}
