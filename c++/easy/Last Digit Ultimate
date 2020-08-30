@@ -1,0 +1,15 @@
+//https://edabit.com/challenge/9SmzmeTpHdDoKTqco
+bool lastDig(int a, int b, int c) {
+	int LastDigitA = a % 10;
+	int LastDigitB = b % 10;
+	int LastDigitC = c % 10;
+	int AwithB = LastDigitA*LastDigitB;
+	int LastDigitAwithB = AwithB % 10;
+	return LastDigitC == LastDigitAwithB;
+}
+
+// BOIIII
+// Idk why I fucking blundered on this one so much
+// Fakin easy bois
+// Check out my onlyfans 
+// JustJericho#7894
