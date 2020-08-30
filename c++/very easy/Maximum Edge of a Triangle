@@ -1,0 +1,9 @@
+//https://edabit.com/challenge/56XXwAkLJGbEccYfn
+int nextEdge(int side1, int side2) {
+	int thirdEdge = side1+side2-1;
+	return thirdEdge;
+}
+/*Bois you should try to watch Cr1tikal on youtube, known as Penguinz0*/
+/*He is very very funny, i love his comedy*/
+/*Anyways it's chill*/
+/*Ama get a doggo real soon and I'm sooo excited!!!*/
