@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/5KAsvzdc9DLfEx65t
+std::vector<int> miniPeaks(std::vector<int> arr) {
+	std::vector<int> peakers;
+	for(int i = 1; i < arr.size()-1; i++){
+		if(arr.at(i) > arr.at(i-1) and arr.at(i) > arr.at(i+1)){
+			peakers.push_back(arr.at(i));
+		}
+	}
+	return peakers;
+}
