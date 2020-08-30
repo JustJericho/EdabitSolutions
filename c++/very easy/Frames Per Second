@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/3vfSPbjTxjLDjeDzz
+int frames(int minutes, int fps) {
+	return minutes*fps*60;
+}
