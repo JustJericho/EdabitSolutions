@@ -1,0 +1,13 @@
+//https://edabit.com/challenge/iJ4qKHdCXMtfwM5z4
+int flipIntBool(int baseIntBoolean) {
+	bool iffalse=false;
+	bool iftrue=true;
+	if(baseIntBoolean==0)
+	{
+		return iftrue;
+	}
+	else
+		return iffalse;
+}
+/*Naisuuu*/
+/*Don't look at this, its very confusing*/
