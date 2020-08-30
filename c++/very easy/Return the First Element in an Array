@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/c9gEA53X9ND3M6J26
+int getFirstValue(std::vector<int> arr) {
+	return arr[0];
+}
