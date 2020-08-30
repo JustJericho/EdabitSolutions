@@ -1,0 +1,11 @@
+//https://edabit.com/challenge/qHi4CcScSZQ4833EF
+int calculator(int num1, char op, int num2) {
+	if(op=='+')
+		return num1+num2;
+	else if(op=='-')
+		return num1-num2;
+	else if(op=='/')
+		return num1/num2;
+	else if(op=='*')
+		return num1*num2;
+}
