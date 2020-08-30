@@ -1,0 +1,13 @@
+//https://edabit.com/challenge/5eStPo3wrZRju7j9G
+bool testJackpot(std::vector<std::string> result) {
+	std::vector<std::string> result_backitup = result;
+    std::reverse(result.begin(), result.end());
+    return result_backitup == result;
+}
+// So I finally got my ps2 working with color and sound
+// and I really enjoy it
+// Honestly it's so nice playing on an old nostalgic games
+// On old nostalgic consoles
+// Like very cool
+// Yesterday I spent a whole hour playing
+// Some F1 2006 Game XD
