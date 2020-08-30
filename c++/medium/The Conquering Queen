@@ -1,0 +1,82 @@
+//https://edabit.com/challenge/goKFX6CqthBoKuqZy
+bool canCapture(std::vector<std::string> queens) {	
+	char queenRow = queens.at(0).at(0);
+	char queenColum = queens.at(0).at(1);
+	char somethingRow = queens.at(1).at(0);
+	char somethingColum = queens.at(1).at(1);
+	int QueenColum = queenColum-48;
+	int SomethingColum = somethingColum-48;
+	int QueenRow = 0;
+	int SomethingRow = 0;
+	if(queenRow == 'A'){
+		QueenRow = 1;
+	}
+	else if (queenRow == 'B') {
+		QueenRow = 2;
+	}
+	else if (queenRow == 'C') {
+		QueenRow = 3;
+	}
+	else if (queenRow == 'D')
+	{
+		QueenRow = 4;
+	}
+	else if (queenRow == 'E') {
+		QueenRow = 5;
+	}
+	else if (queenRow == 'F') {
+		QueenRow = 6;
+	}
+	else if (queenRow == 'G'){
+		QueenRow = 7;
+	}
+	else if (queenRow == 'H'){
+		QueenRow = 8;
+	}	
+
+	if(somethingRow == 'A'){
+		SomethingRow = 1;
+	}
+	else if (somethingRow == 'B') {
+		SomethingRow = 2;
+	}
+	else if (somethingRow == 'C') {
+		SomethingRow = 3;
+	}
+	else if (somethingRow == 'D')
+	{
+		SomethingRow = 4;
+	}
+	else if (somethingRow == 'E') {
+		SomethingRow = 5;
+	}
+	else if (somethingRow == 'F') {
+		SomethingRow = 6;
+	}
+	else if (somethingRow == 'G'){
+		SomethingRow = 7;
+	}
+	else if (somethingRow == 'H'){
+		SomethingRow = 8;
+	}	
+
+	if (abs(QueenRow - SomethingRow) == abs(QueenColum - SomethingColum)){
+		return true;
+	} 
+
+	if (queenRow == somethingRow){
+		return true;
+	}
+
+	if (queenColum == somethingColum){
+		return true;
+	}
+	return false;
+}
+
+
+
+// GG not so easy bois
+// man you gotta try doing some coding with eurobeat
+// it's so god damn rewarding and hyped up it's soooo goood when you get it
+// Kinda like how drifting/driving fast is exciting when listening to eurobeat
