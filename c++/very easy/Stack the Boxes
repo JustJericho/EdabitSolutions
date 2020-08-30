@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/fjABkcxPwwmo8r2ux
+int stackBoxes(int n) {
+	return n*n;
+}
