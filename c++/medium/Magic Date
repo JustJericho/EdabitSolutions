@@ -1,0 +1,17 @@
+//https://edabit.com/challenge/sCHkm7n4gyMaFJCR2
+bool magic(std::string str) {
+	int MM = str.at(0)-48;
+	int DD = str.at(2)-48;
+	int result = DD*MM;
+	bool returner;
+	if(std::to_string(result).length() == 1){
+		returner =  result == str.at(7)-48;
+	}
+	if(std::to_string(result).length() == 2){
+		returner =  result == ((str.at(6)-48)*10) + (str.at(7)-48);
+	}
+	if(std::to_string(result).length() == 3){
+		returner =  result == ((str.at(5)-48)*100) + ((str.at(6)-48)*10) + (str.at(7)-48);
+	}
+	return returner;
+}
