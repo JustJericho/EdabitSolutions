@@ -1,0 +1,39 @@
+//https://edabit.com/challenge/bsPZtsX62zQmRHNjX
+int letterCounter(std::vector<std::vector<char>> arr, char c) {
+	int number = 0;
+	for(int i = 0; i<arr.size(); i++){
+		for(int j = 0; j<arr[i].size(); j++){
+			if(arr[i].at(j) == c){
+				number = number + 1;
+			}
+		}
+		
+	}
+	return number;
+}
+
+// Man my week has kinda been terrible xdd
+// Dude I face planted into the ground from biking
+// That shit hurts XD
+
+// Anyway I hope ama be okay, currently it's been chill on recovery
+// The doc's say it's just a few simple like 'scratch' marks from the ground
+// I mean it looks gross because there's the blood patching, but I guess just
+// like any deep scratch, it goes away as the skin forms under the blood.
+
+
+// I've been chilling away from any friends, chilling on my own
+// Doin some programming and forum making 
+// It's fun really
+// You know I think I should just end up writing in my own spare time 
+// In my very own diary or something, since this is really fun for some reason.
+
+
+// Yeah, just a tip on whatever you're doing, don't get overconfident XD
+// All there has to be is one flat patch on your back tyre, one overused tyre
+// And a little bit of rain and luck and you're gone, so watch what you're 
+// Doing, keep a better understanding on your limits, and how you ride them.
+
+// It's fun riding fast don't get me wrong, though just watch over the limits
+// Brake them if you're confident and sure that everything you're working with
+// Is stable and actually has 0 problems xddd
