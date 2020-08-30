@@ -1,0 +1,38 @@
+//https://edabit.com/challenge/MYqnQ3DpPZi9di4iW
+std::string rps(std::string s1, std::string s2) {
+	if(s1 == "rock" && s2 == "paper"){
+		return "Player 2 wins";
+	}
+	else if (s1 == "paper" && s2 == "rock") {
+		return "Player 1 wins";
+	}
+	else if (s1 == "scissors" && s2 == "paper") {
+		return "Player 1 wins";
+	}
+	else if (s1 == "paper" && s2 == "scissors") {
+		return "Player 2 wins";
+	}
+	else if (s1 == "scissors" && s2 == "rock") {
+		return "Player 2 wins";
+	}
+	else if (s1 == "rock" && s2 == "scissors") {
+		return "Player 1 wins";
+	}
+	else
+	{
+		return "TIE";
+	}	
+}
+
+// GGEZ
+// Quite simple really
+// You can also use switch, but I love if so ye
+
+// Because of the corona I couldn't buy myself a guitar pic today
+// So I literally cut out a leftover plastic type of container for like chocolate nutella
+// But not actually nutella because it's too expensive, and it's in glass
+// This is something similar, but in plastic
+// So what I did was just full on got out the measuring tool
+// And I measured the pic length and then I just fully made my own from the measurements
+// Cut the thing to size and then I coated it in some black rubber and 
+// Boom, it's done xD
