@@ -1,0 +1,11 @@
+//https://edabit.com/challenge/EdWGFAXhHTjwE2uAg
+bool dividesEvenly(int a, int b) {
+	int decider = a%b;
+	if(decider == 0)
+		return true;
+	else
+		return false;
+}
+/*Hippity Hoppity*/
+/*no more errors on my property*/
+/*Ye Yaaahhh!!!*/
