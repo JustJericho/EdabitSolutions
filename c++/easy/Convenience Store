@@ -1,0 +1,9 @@
+//https://edabit.com/challenge/efcdpNEyvsXyDpsYx
+bool changeEnough(std::vector<int> change, float amountDue) {
+	float Quarters = change.at(0)*0.25;
+	float Dimes = change.at(1)*0.10;
+	float Nickels = change.at(2)*0.05;
+	float Pennies = change.at(3)*0.01;
+	float Change = Quarters+Dimes+Nickels+Pennies;
+	return Change >= amountDue;
+}
