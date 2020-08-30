@@ -1,0 +1,16 @@
+//https://edabit.com/challenge/FZK5rECZMiqu9bv9i
+bool isEqual(int num1, int num2) {
+	if(num1==num2)
+	{
+		return true;
+	}
+	else 
+		return false;
+}
+/*Haiya*/
+/*This is quite fun actually*/
+/*Leaving msgs*/
+/*Its like im on an island trying to reach out to people*/
+/*I kinda hope some of them reach out though*/
+/*If by any chance you do want to, msg me on discord*/
+/*JustJericho#7894*/
