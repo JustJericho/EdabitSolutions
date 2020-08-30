@@ -1,0 +1,12 @@
+//https://edabit.com/challenge/7oyHeyJR2LkB3hr8g
+#include <vector>
+
+std::vector<int> arrayOfMultiples(int num, int length) {
+    std::vector<int> Numbers;
+	for(int i = 1; i < length+1;i++){
+        Numbers.push_back(num*i);
+    }
+    return Numbers;
+}
+
+// Kind of a lazy fix but it works xD
