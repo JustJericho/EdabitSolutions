@@ -1,0 +1,38 @@
+//https://edabit.com/challenge/rsjz5PyvB998zDSHF
+std::string preventDistractions(std::string str) {
+	std::string AniWord = "anime";
+	std::string MemWord = "meme";
+	std::string DeadPlatform = "vines";
+	std::string RoWord = "roasts";
+	std::string DeVito = "Danny DeVito";
+	size_t found = str.find(AniWord);
+	size_t found1 = str.find(MemWord);
+	size_t found2 = str.find(DeadPlatform);
+	size_t found3 = str.find(RoWord);
+	size_t found4 = str.find(DeVito);
+	if(found!=std::string::npos){
+		return "NO!";
+	}
+	else if(found1!=std::string::npos){
+		return "NO!";
+	}
+	else if(found2!=std::string::npos){
+		return "NO!";
+	}
+	else if(found3!=std::string::npos){
+		return "NO!";
+	}
+	else if(found4!=std::string::npos){
+		return "NO!";
+	}
+	else
+		return "Safe watching!";
+}
+
+
+// God I know you're gonna view this passed challenge and be like "Oh god"
+// Jer this is some sloppy ass code
+// Well you are right, misterious person I am reffering to
+// I'll improve it eventually, just wanted to learn something real quick xdd
+// Hey it works so yeeeee
+// God my code is so bad xdd
