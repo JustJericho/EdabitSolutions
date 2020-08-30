@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/M3MZS3RHKZ67fQQBM
+int factorial(int z){
+    int factorialz = 1;
+    for(int i = 1; i <=z; ++i){
+        factorialz *= i;
+    }
+    return factorialz;
+}
