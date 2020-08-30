@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/hd5o7BEDPvduGhzD7
+bool reverse(bool boolean) {
+	return !boolean;
+}
