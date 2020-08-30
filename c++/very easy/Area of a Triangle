@@ -1,0 +1,11 @@
+//https://edabit.com/challenge/HvYiBXgfPtnDHitym
+int triArea(int base, int height) {
+	int area=base*height/2;
+	return area;
+}
+/*Hello again!*/
+/*How are ya?*/
+/*Im just chilling, started watching boruto and i quite like it*/
+/*I kinda wanna cosplay hahahahah*/
+/*O well, have fun*/
+/*Naruto of course, im not cosplaying boruto lol*/
