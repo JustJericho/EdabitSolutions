@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/HXGx9oXukEgsFK6PH
+std::string reverse(std::string str){
+	std::string reverse;
+	for(char i = 48+str.length(); i>0; i--){
+	reverse.push_back(str.at(i));
+	}
+	return reverse;
+}
