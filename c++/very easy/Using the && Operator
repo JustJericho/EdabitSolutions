@@ -1,0 +1,7 @@
+//https://edabit.com/challenge/idpsTQRxMfEPfMu2x
+bool andAnd(bool a, bool b){
+	if(a&&b)
+		return true;
+	
+}
+/*Cool feature to cpp ngl*/
