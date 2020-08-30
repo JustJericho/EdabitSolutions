@@ -1,0 +1,8 @@
+https://edabit.com/challenge/MtNAJmJZ49i5Xf3AW
+int convert(int minutes) {
+	int seconds = minutes*60;
+	return seconds;
+}
+/*Hello bois, I just checked out a doggo*/
+/*Might get one ngl, i quite like doggos, though they pee a lot and its */
+/*Kind of a pain in the ass*/
