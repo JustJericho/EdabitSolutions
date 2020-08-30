@@ -1,0 +1,12 @@
+//https://edabit.com/challenge/g6bj8ofJWNgRxQQnz
+bool isInOrder(std::string str) {
+	std::string str_backitup = str;
+    std::sort (str.begin(), str.end());
+    return str_backitup == str;
+}
+// GG bois, gg
+// Well done
+// 5 Lines eh? Not bad :D
+// This site has some weird font so :D looks very weird
+// Ignore it
+// Welp gg
