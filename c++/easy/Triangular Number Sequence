@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/M7Xzr3ez5xBPTu3bq
+int triangle(int n) {
+	return 0.5*n*n+0.5*n;
+}
+//Lmaooooo now this was kind of a bit too easy, prolly should belong
+//In the very easy category
+//Anyways yeah that's it, just returning a math formula for the damn thing XD
+//Happy days XD
