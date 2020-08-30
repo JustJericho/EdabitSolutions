@@ -1,0 +1,4 @@
+https://edabit.com/challenge/hCqSHZ92AwLtmbasu
+int mySub(int a, int b) {
+	return b-a;
+}
