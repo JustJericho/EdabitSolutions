@@ -1,0 +1,14 @@
+//https://edabit.com/challenge/mRu88hQ9KhMfEt2Kw
+std::string alternatingCaps(std::string str) {
+	std::string SpongeCase;
+	for(int i = 0; i < str.length(); i++){
+		if(i % 2 == 0){
+			SpongeCase.push_back(toupper(str.at(i)));
+		}
+		else
+		{
+			SpongeCase.push_back(tolower(str.at(i)));
+		}
+		
+	}
+}
