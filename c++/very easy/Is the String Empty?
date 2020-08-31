@@ -1,0 +1,8 @@
+//https://edabit.com/challenge/MF97Xr4QJJmNLtDhy
+bool isEmpty(std::string str) {
+	if(str=="")
+		return true;
+	else
+		return false;
+}
+/*We roll on bois, we roll on*/
