@@ -1,0 +1,15 @@
+//https://edabit.com/challenge/3dBpTdfBsnGYrKGxh
+int count_ones(std::vector< std::vector<int> > matrix) {
+	int number = 0;
+	for(int i = 0; i<matrix.size(); i++){
+		for(int j = 0; j<matrix[i].size(); j++){
+			if(matrix[i].at(j) == 1){
+				number = number+1;
+			}
+		}
+		
+	}
+	return number;
+}
+
+// ez
