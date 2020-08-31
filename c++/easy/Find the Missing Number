@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/7YaJhC4terApw5DFa
+int missingNum(std::vector<int> arr) {
+	int sum = 0;
+    for(int i = 0; i<arr.size(); i++){
+        sum = sum + arr.at(i);
+    }
+    return 55-sum;
+}
+
+//Simple but it works
