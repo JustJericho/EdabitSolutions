@@ -1,0 +1,19 @@
+//https://edabit.com/challenge/kKvXt3DiTrGmvFCWq
+std::vector<int> amplify(int n) {
+	std::vector<int> numbers;
+	for(int i = 1; i<=n; i++){
+		if(i % 4 == 0){
+			int Multiplier = i*10;
+			numbers.push_back(Multiplier);
+		}
+		else
+		{
+			numbers.push_back(i);
+		}
+		
+	}
+	return numbers;
+}
+
+// Thanks mister/miss Rusty
+// I still owe you a beer xD
