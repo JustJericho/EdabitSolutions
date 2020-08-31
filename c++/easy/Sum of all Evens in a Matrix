@@ -1,0 +1,12 @@
+//https://edabit.com/challenge/xe43hz5DJuTewb5nA
+int sumOfEvens(std::vector<std::vector<int>> arr) {
+	int number = 0;
+	for(int i = 0; i<arr.size(); i++){
+		for(int j = 0; j<arr[i].size();j++){
+			if(arr[i].at(j) % 2 == 0){
+				number = number + arr[i].at(j);
+			}
+		}
+	}
+	return number;	
+} // First try bois
