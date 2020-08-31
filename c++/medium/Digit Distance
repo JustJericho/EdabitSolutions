@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/7NgGjgQvaRzYkmZJ3
+int digitDistance(int num1, int num2) {
+	int distance = 0;
+	std::string num1S = std::to_string(num1);
+	std::string num2S = std::to_string(num2);
+	for(int i = 0; i<num1S.length(); i++){
+		distance = distance + (num2S.at(i)-48) - (num1S.at(i)-48);
+	}
+	return distance;
+}
