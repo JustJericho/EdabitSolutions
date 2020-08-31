@@ -1,0 +1,10 @@
+//https://edabit.com/challenge/bTrM8t39vjrAtYytA
+int remainder(int x, int y) {
+	int remainderNum = x % y;
+	return remainderNum;
+}
+/*I wanna get my ps2 controllers to work but I have to get an adapter from*/
+/*china so like I have to wait a while lol*/
+/*How you bois doing anyway? How is this learning going? Easy?*/
+/*If theres something you're struggling on, don't worry since you will get*/
+/*through it!*/
