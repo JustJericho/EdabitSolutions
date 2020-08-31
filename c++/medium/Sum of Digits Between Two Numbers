@@ -1,0 +1,12 @@
+//https://edabit.com/challenge/jwcuCiTMpeMQvfHkm
+int sumDigits(int a, int b){
+	int sum = 0;
+	for(int i = a; i<=b; i++){
+		std::string i_s = std::to_string(i);
+		for(int j = 0; j<i_s.length(); j++){
+			char  j_c = i_s.at(j)-48;
+			sum = sum+j_c;
+		}
+	}
+	return sum;
+}
