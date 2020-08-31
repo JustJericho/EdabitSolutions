@@ -1,0 +1,14 @@
+//https://edabit.com/challenge/2MAr9P4TTGooXS8Xa
+std::string maskify(std::string str) {
+	std::string str1;
+	if(str.length()<4){
+		return str;
+	}
+	for(int i = 0; i<str.length()-4; i++){
+		str1.push_back('#');
+	}
+	for(int i = str.length()-4; i<str.length(); i++){
+		str1.push_back(str.at(i));
+	}
+	return str1;
+}
