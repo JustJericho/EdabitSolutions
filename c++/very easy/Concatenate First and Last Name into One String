@@ -1,0 +1,4 @@
+//https://edabit.com/challenge/yN9Dkm5zTfyaDtrjx
+std::string concatName(std::string firstName, std::string lastName) {
+	return lastName+", "+firstName;
+}
