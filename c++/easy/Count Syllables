@@ -1,0 +1,9 @@
+//https://edabit.com/challenge/zRe5fx3MbiBxcrvXH
+int numberSyllables(std::string word) {
+	int dashes = 0;
+	for(int i = 0; i < word.length(); i++) {
+		if(word.at(i) == '-')
+			dashes++;
+	}
+	return dashes+1;
+}
