@@ -1,0 +1,13 @@
+//https://edabit.com/challenge/uY4YQ6PNrqwZbbLN4
+bool divisibleByFive(int num) {
+	bool decision;
+	int cookies = num % 5;
+	if(cookies = 0)
+		decision = true;
+	else
+		decision = false;
+	
+}
+/*Ez*/
+/*Pretty cool right?*/
+/*I think its cool!*/
