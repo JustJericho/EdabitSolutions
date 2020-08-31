@@ -1,0 +1,21 @@
+//https://edabit.com/challenge/GJT6RyivEHh3onNq4
+bool simonSays(std::vector<int> arr1, std::vector<int> arr2) {
+	bool returner = true;
+	for(int i = 1; i<arr2.size(); i++){
+		if(arr2.at(i) != arr1.at(i-1)){
+			returner = false;
+		}
+	}
+	return returner;
+}
+
+// Nice 
+// GGGGG
+// Can't waaaait to get so good that I can finally colab with my crush
+// Imagine that eh? Doing your favourite hobby, as your job, and on the side working with your crush that's now your gf together
+// What a fucking dream lmao
+// Ama make it happen
+// Trust me
+// Never ever going to give up
+// It's became my meaning of life at this point
+// xD
