@@ -1,0 +1,11 @@
+//https://edabit.com/challenge/3Em65z4F8xQ3wcLF4
+bool isAvgWhole(std::vector<int> arr) {
+    double sum = 0;
+	for(int i = 0; i<arr.size();i++){
+        sum = sum+arr.at(i);
+    }
+    double WholeAvg = sum/arr.size();
+    int WholeAvgC = WholeAvg;
+    return WholeAvgC == WholeAvg;
+}
+//
