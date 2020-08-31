@@ -1,0 +1,9 @@
+//https://edabit.com/challenge/QgCMMMyMmckvHbfKv
+int addition(int a) {
+	int addition = a+1;
+	return addition;
+	
+}
+/*I'm back again!*/
+/*I'm currently listening to my friend make music*/
+/*She is very bad lmao*/
